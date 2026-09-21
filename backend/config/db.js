@@ -9,7 +9,7 @@ const pool=new Pool({
     port:process.env.DB_PORT,
     ssl:{
         rejectUnauthorized:false
-
+    }
 });
 
 pool.connect().then(()=>console.log("Postgresql is connected")).catch((error)=>console.log("database connection failed",error.message));
