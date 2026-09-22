@@ -26,8 +26,8 @@ git clone https://github.com/babu9342/Hotel-crud/
 npm install
 
 # Run backend
-npm run dev
+npm start
 
 # Run frontend
-npm start
+npm run dev
 \`\`\`
